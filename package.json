@@ -5,7 +5,9 @@
   "description": "Control the TPLink lights on your network from GraphQL",
   "scripts": {
     "start": "babel-node src/server.js",
-    "docs": "graphql-markdown http://localhost:3000/graphql > api.md"
+    "docs": "graphql-markdown http://localhost:3000/graphql > api.md",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
@@ -32,7 +34,8 @@
     "jsonwebtoken": "latest",
     "lodash": "latest",
     "merge-graphql-schemas": "latest",
-    "tplink-lightbulb": "latest"
+    "tplink-lightbulb": "latest",
+    "snyk": "^1.316.1"
   },
   "babel": {
     "presets": [
@@ -41,5 +44,6 @@
   },
   "devDependencies": {
     "graphql-markdown": "^3.2.0"
-  }
+  },
+  "snyk": true
 }
