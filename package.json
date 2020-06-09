@@ -27,7 +27,7 @@
     "express-jwt": "latest",
     "glob": "latest",
     "graphql": "latest",
-    "graphql-playground-middleware-express": "latest",
+    "graphql-playground-middleware-express": "1.7.13",
     "graphql-tools": "latest",
     "jsonwebtoken": "latest",
     "lodash": "latest",
