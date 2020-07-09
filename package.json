@@ -30,7 +30,7 @@
     "graphql-playground-middleware-express": "latest",
     "graphql-tools": "latest",
     "jsonwebtoken": "latest",
-    "lodash": "latest",
+    "lodash": "4.17.16",
     "merge-graphql-schemas": "latest",
     "tplink-lightbulb": "latest"
   },
